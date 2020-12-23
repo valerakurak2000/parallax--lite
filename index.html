@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="thankyou.css">
+    <title>cmbox.by Test</title>
+</head>
+<body>
+
+    <div class="blocks">
+
+    <div class="block1">
+        <img class="arrow-right" src="next.png" alt="Следующая картинка">
+    </div>
+
+    <div class="mouse-parallax">
+        <div class="block2">
+        <img class="mouse-parallax__content1" src="star.png" alt="Звезда">
+        <img class="mouse-parallax__content2" src="star.png" alt="Звезда">
+        <img class="mouse-parallax__content3" src="star.png" alt="Звезда">
+        </div>
+    </div>
+
+    <div class="block3">
+        <div class="feedback">
+            <div class="container">
+                <div class="form">
+                    <form class="form__content" class="form1" id="form1" name="form1">
+                        <p class="form__content--title">Форма обратной связи</p>
+                        <input required class="form__content--name" name="user_name" type="text" id="name" placeholder="Введите имя">
+                        <input required class="form__content--tel" name="user_phone" type="tel" id="phone" placeholder="Введите номер" class="form-control">
+                        <input class="form__content--submit" type="submit" value="Получить">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="overlay js-overlay-thank-you">
+    <div class="popup js-thank-you">
+        <h2>Спасибо, сообщение отправлено</h2>
+        <div class="close-popup js-close-thank-you"></div>
+    </div>
+</div>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script src="thankyou.js"></script>
+<script src="script.js"></script>
+<script src="jquery.maskedinput.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/jquery.easings.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
+</body>
+
+</html>
